@@ -6,7 +6,7 @@ from torchtext.legacy import data, datasets, vocab
 import numpy as np
 from argparse import ArgumentParser
 import tqdm, random, math, gzip
-from text_classification import Transformer
+from transformer import Transformer
 
 LOG2E = math.log2(math.e)
 TEXT = data.Field(lower=True, include_lengths=True, batch_first=True)
